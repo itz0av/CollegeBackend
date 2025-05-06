@@ -12,9 +12,9 @@ public class ProjectConfig {
     @Bean
     public Cloudinary getCloudinary() {
         Map config = new HashMap();
-        config.put("cloud_name", "amandb");
-        config.put("api_key", "938553971614247");
-        config.put("api_secret", "dA1UZKiQpf8gp9C3tRddBFpopJ0");
+        config.put("cloud_name", "");
+        config.put("api_key", "");
+        config.put("api_secret", "");
         config.put("secure", true);
         return new Cloudinary(config);
     }
